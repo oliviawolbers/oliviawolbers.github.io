@@ -1,0 +1,98 @@
+body {
+	
+	font-family: 'Cabin', sans-serif;
+	font-size: 32px;
+    background-image:url("assets/images/keyboard.jpeg");
+}
+
+a {
+	color:red;
+}
+
+/* When you first edit this file, you can delete everything below here. Remember you should use body to target all elements on the page first and then override them later  */
+
+/* EXAMPLE CODE PLEASE REMOVE */
+
+.nav {
+    width: 100%;
+    background-color: palegreen;
+    padding: 20px;
+    box-shadow: 2px 2px 20px white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    text-align: right;
+}
+
+.nav-item {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 5px;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    flex: 0 0 33.333%;
+    text-align: center;
+
+ }
+
+.title {
+    font-size: 7.1vw;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-top: 100px;
+}
+
+.research {
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px;
+	box-shadow: 2px 2px 20px white ;
+	margin-top: 20px
+
+}
+
+.subhead {
+    color: black;
+    font-family: 'Hepta Slab', serif;
+}
+
+.research-item {
+	flex: 0 0 33.333%;
+	font-size: 30px;
+	text-align: center;
+	color: darkred;
+
+}
+
+.research-item img {
+	width: 100%;
+
+}
+
+.research2{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    box-shadow: 2px 2px 20px darkred ;
+    margin-top: 20px
+}
+
+.research-2 {
+    flex: 0 0 33.333%;
+    font-size: 30px;
+    text-align: center;
+    color: darkred;
+
+}
+
+.research-2 img {
+    width: 100%;
+
+}
+
+
+
+
+
