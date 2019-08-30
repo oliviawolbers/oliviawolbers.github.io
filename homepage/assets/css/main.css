@@ -1,0 +1,52 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 50px;
+	color: pink; 
+	background-image: linear-gradient(blue, lime);
+}
+
+a {
+	color:red;
+}
+
+/* When you first edit this file, you can delete everything below here. Remember you should use body to target all elements on the page first and then override them later  */
+
+/* EXAMPLE CODE PLEASE REMOVE */
+
+
+.title {
+	font-family: arial black, sans-serif; 
+	color: lime;
+	text-align: center;
+	font-size: 9.5vw;
+	margin-top: 30px;
+	text-shadow: 7px 7px 5px violet;
+
+}
+
+.bio{
+	font-size: 20px;
+	margin:50px;
+	color: black;
+	margin-top: 50px;
+	text-align: center;
+	font-family: verdana, sans-serif;
+}
+
+.image img {width:100%;}
+
+
+.image{
+	margin: center;
+	margin-top: 10px; 
+	border: 10px solid pink;
+   
+ 
+}
+
+
+}
+	
+
+ }
+}
