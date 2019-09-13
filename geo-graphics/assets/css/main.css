@@ -159,7 +159,87 @@ a {
 }
 
 
+/*flag1*/
 
+.square {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: black;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.square-turn {
+	width: 50%;
+	height: 100vh;
+	background-color: pink;
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	animation: rotate 1s linear infinite alternate;
+	font-size: fixed 100px;
+	color: black;
+	transform: rotate(90deg);
+    transform-origin:top left;
+    text-align: center;
+}
+
+
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(90deg);
+  }
+}
+
+
+/*forward*/
+
+
+.forward {
+	background: radial-gradient(white, black);;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.forward-symbol {
+	font-size: 33vw;
+	text-align: center;
+	color: darkgray;
+	object-fit: contain;
+	animation: forward 1.5s linear infinite;
+    transform-origin:50% 58.62%;
+    text-align: center;
+    margin-bottom: 70px;
+	
+}
+
+.text {
+	font-size: 19vw;
+	text-align: center;
+	position: absolute;
+	color: white;
+	mix-blend-mode: difference;
+	object-fit: contain;
+	font-family: 'Saira Stencil One', cursive;
+}
+
+@keyframes forward {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
 
 
