@@ -159,12 +159,12 @@ a {
 }
 
 
-/*flag1*/
+/*surveilence*/
 
 .square {
 	display: flex;
 	flex-wrap: wrap;
-	background-color: black;
+	background-color: lightpink;
 	align-items: center;
 	justify-content: center;
 
@@ -179,20 +179,30 @@ a {
 	object-fit: contain;
 	animation: rotate 1s linear infinite alternate;
 	font-size: fixed 100px;
-	color: black;
+	color: pink;
 	transform: rotate(90deg);
     transform-origin:top left;
     text-align: center;
 }
 
-
+.surveillance {
+	font-size: 150px;
+	text-align: center;
+	justify-content: center;
+	position: absolute center;
+	color: white; 
+	margin-top: 250px;
+	mix-blend-mode: difference;
+	object-fit: contain;
+	font-family: 'arial black', sans-serif;
+}
 
 @keyframes rotate {
   0% {
     transform: rotate(0deg);
   }
   100% {
-    transform: rotate(90deg);
+    transform: rotate(80deg);
   }
 }
 
@@ -201,7 +211,7 @@ a {
 
 
 .forward {
-	background: radial-gradient(white, black);;
+	background: radial-gradient(white, black);
 	height: 100vh;
 	width: 100vw;
 	display: flex;
