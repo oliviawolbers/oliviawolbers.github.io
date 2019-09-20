@@ -275,13 +275,13 @@ a {
 	padding: 4vw;
 	border-radius: 5vw;
 	width: 50vw;
-	box-shadow: 0px 0px 15px 15px magenta;
+	box-shadow:15px 15px 15px #a80284;
 
 }
 
 .like-button div {
 	animation-name: grow-heart;
-    animation-duration:1s;
+    animation-duration:0.5s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-out;
     animation-direction: alternate;
