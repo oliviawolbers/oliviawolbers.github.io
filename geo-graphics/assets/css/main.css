@@ -164,33 +164,31 @@ a {
 .square {
 	display: flex;
 	flex-wrap: wrap;
-	background-color: lightpink;
+	background-color: red;
 	align-items: center;
 	justify-content: center;
 
 }
 
 .square-turn {
-	width: 50%;
-	height: 100vh;
-	background-color: pink;
+	background-color: red;
 	width: 100%;
 	height: 100%;
 	object-fit: contain;
 	animation: rotate 1s linear infinite alternate;
 	font-size: fixed 100px;
-	color: pink;
+	color: red;
 	transform: rotate(90deg);
     transform-origin:top left;
     text-align: center;
 }
 
 .surveillance {
-	font-size: 150px;
+	font-size: 10vw;
 	text-align: center;
 	justify-content: center;
 	position: absolute center;
-	color: white; 
+	color: yellow; 
 	margin-top: 250px;
 	mix-blend-mode: difference;
 	object-fit: contain;
@@ -203,7 +201,7 @@ a {
     transform: rotate(0deg);
   }
   100% {
-    transform: rotate(80deg);
+    transform: rotate(90deg);
   }
 }
 
