@@ -172,7 +172,7 @@ a {
 
 .square-turn {
 	background-color: red;
-	width: 100%;
+	width: 200vh;
 	height: 100%;
 	object-fit: contain;
 	animation: rotate 1s linear infinite alternate;
