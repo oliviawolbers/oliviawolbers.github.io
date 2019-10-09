@@ -335,7 +335,7 @@ a {
     height:100vh;
   }
 
-  .watching {
+ .watching {
   	font-size: 200px;
   	display: flex;
   	justify-content: center;
@@ -351,11 +351,10 @@ a {
   }
 
 
-/*barcode*/
+/*Barcodes*/
 
-.numbers {
-	background: rgb(162,63,251);
-    background: radial-gradient(circle, rgba(162,63,251,1) 0%, rgba(252,70,107,1) 100%);
+.barcodes {
+	background-color: cyan;
 	height: 100vh;
 	width: 100vw;
 	display: flex;
@@ -364,35 +363,12 @@ a {
 
 }
 
-.numbers-lines {
-	font-size: 20vw;
+.numbers {
+	font-size: 15vw;
 	text-align: center;
-	color: magenta;
-	background-color: #240e37;
-	padding: 4vw;
-	border-radius: 5vw;
-	width: 50vw;
-	box-shadow:15px 15px 15px #a80284;
+	color: blue;
 
 }
-
-.numbers-lines div {
-	animation-name: grow-heart;
-    animation-duration:0.5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-out;
-    animation-direction: alternate;
-}
-
-
-@keyframes grow-heart {
-	from {
-		-webkit-transform: scale(1,1);
-	}
-	to {
-		-webkit-transform: scale(1.2,1.2);
-	}
-
 
 
 
