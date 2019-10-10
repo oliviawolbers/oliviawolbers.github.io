@@ -45,6 +45,43 @@ a {
 }
 
 
+/*elevator*/
+
+.behind {
+  background: rgb(168,98,2);
+  background: radial-gradient(circle, rgba(168,98,2,1) 0%, rgba(252,190,70,1) 100%);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.door {
+  width: 0vw;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation-name:door;
+  animation-duration:1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  background-color: gold;
+}
+
+@keyframes door {
+  
+  0% {
+    width: :0vw;
+  }
+  
+  100% {
+    width:100vw;
+  }
+
 /*Traffic Lights*/
 
 .traffic {
@@ -403,62 +440,9 @@ a {
 }
 
 
-/*elevator*/
-
-.behind {
-  background: rgb(168,98,2);
-  background: radial-gradient(circle, rgba(168,98,2,1) 0%, rgba(252,190,70,1) 100%);
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 
 
-.elevator {
-  width: 100vw;
-  height:0vh;
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  animation-name:elevator;
-  animation-duration:1s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-direction: alternate;
-  background-color: gold;
-}
-
-@keyframes elevator {
-  
-  0% {
-    height: :0vh;
-  }
-  
-  100% {
-    height:100vh;
-  }
-
- .watching {
-  	font-size: 200px;
-  	display: flex;
-  	justify-content: center;
-  	align-items: center;
-  	margin-top: 50vh;
-  	color: black;
-	background-color: blue;
-	padding: 4vw;
-	border-radius: 5vw;
-	width: 50vw;
-	object-fit: contain;
-
-  }
-
-
-/*Barcodes*/
 
 
 
