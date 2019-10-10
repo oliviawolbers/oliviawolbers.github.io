@@ -1,7 +1,7 @@
 body {
 	font-family: Helvetica,Arial,sans-serif;
 	font-size: 32px;
-	background-color: black;
+	background-color: lightpink;
 	color: white;
 }
 
@@ -44,8 +44,40 @@ a {
 
 }
 
+/*Email*/
 
-/*elevator*/
+
+.email h1 {
+  overflow: hidden; 
+  border-right: .15em solid crimson; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .30em; 
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+  margin-top: 50vh;
+  font-family: 'Mansalva', cursive;
+  align-items: center;
+  display: inline-block;
+  font-size: 70px;
+  margin-left: 6vw;
+  color: crimson;
+}
+
+@keyframes typing {
+  from { width: 0% }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: crimson ; }
+}
+
+
+/*Elevator*/
 
 .behind {
   background: rgb(168,98,2);
