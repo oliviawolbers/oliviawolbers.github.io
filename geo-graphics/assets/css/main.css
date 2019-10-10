@@ -44,6 +44,77 @@ a {
 
 }
 
+
+/*Traffic Lights*/
+
+.traffic {
+	align-items: center;
+	background-color: #d3fff8;
+}
+
+.red-light {
+	font-size: 100px;
+	border-radius: 100%;
+	justify-content: center;
+	height: 33.33vh;
+	width: 20%;
+	animation: colorchangeone 3s linear infinite;
+	margin-left: 40vw;
+	border:  3px solid black;
+}
+
+.yellow-light {
+	font-size: 100px;
+	border-radius: 100%;
+	justify-content: center;
+	height: 33.33vh;
+	width: 20%;
+	animation: colorchangetwo 3s linear infinite;
+	margin-left: 40vw;
+	border:  3px solid black;
+}
+
+.green-light {
+	font-size: 100px;
+	border-radius: 100%;
+	justify-content: center;
+	height: 33.33vh;
+	width: 20%;
+	animation: colorchangethree 3s linear infinite;
+	margin-left: 40vw;
+	border:  3px solid black;
+}
+
+@keyframes colorchangeone
+    {
+      0%   {background: white;}
+      50%  {background: white;}
+      60%  {background: white;}
+      75%  {background: #f42626;}
+      95%  {background: #f42626;}
+      100% {background: white;}
+    }
+
+@keyframes colorchangetwo
+    {
+      0%   {background: white;}
+      40%  {background: white;}
+      50%  {background: #f4ca26;}
+      60%  {background: #f4ca26;}
+      75%  {background: white;}
+      100% {background: white;}
+    }
+
+@keyframes colorchangethree
+    {
+      0%   {background: white;}
+      25%  {background: #54cc36;}
+      40%  {background: #54cc36;}
+      50%  {background: white;}
+      100% {background: white;}
+    }
+
+
 /*Barcodes*/
 
 .barcodes {
