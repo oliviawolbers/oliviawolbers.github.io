@@ -1,7 +1,7 @@
 body {
 	font-family: Helvetica,Arial,sans-serif;
 	font-size: 32px;
-	background-color: black;
+	background-color: lightpink;
 	color: white;
 }
 
@@ -16,7 +16,6 @@ a {
 	font-size: 18px;
 	margin-bottom: 25vh;
 	padding: 10px;
-
 }
 
 .index-row {
@@ -26,22 +25,18 @@ a {
 	margin-bottom: 5px;
 	margin-top: 5px;
 	border-top: 2px solid white;
-
 }
 
 .index-name {
 	flex: 0 0 50%;
-
 }
 
 .index-layer {
 	flex: 0 0 25%;
-
 }
 
 .index-tag{
 	flex: 0 0 25%;
-
 }
 
 /*Email*/
@@ -75,6 +70,8 @@ a {
   from, to { border-color: transparent }
   50% { border-color: crimson ; }
 }
+
+
 
 
 /*Elevator*/
@@ -113,6 +110,9 @@ a {
   100% {
     width:100vw;
   }
+
+
+
 
 /*Traffic Lights*/
 
@@ -184,6 +184,9 @@ a {
     }
 
 
+
+
+
 /*Barcodes*/
 
 .barcodes {
@@ -221,6 +224,10 @@ a {
 	width: 100%;
 }
 
+
+
+
+
 /*IP Address*/
 
 .ip {
@@ -239,6 +246,10 @@ a {
 	color: blue;
 
 }
+
+
+
+
 
 /*Checkers*/
 
@@ -262,6 +273,10 @@ a {
 
 }
 
+
+
+
+
 /*Cloud Pattern*/
 
 .cloud-pattern {
@@ -276,8 +291,10 @@ a {
 	height: 33.333vh;
 	background-image: linear-gradient(blue,cyan);
 	border-radius: 50%;
-
 }
+
+
+
 
 
 /*checkers type*/
@@ -302,6 +319,9 @@ a {
 	border-radius: 5vw;
 
 }
+
+
+
 
 
 /*Chip*/
@@ -333,6 +353,10 @@ a {
 	
 
 }
+
+
+
+
 
 
 /*surveilence*/
@@ -382,7 +406,10 @@ a {
 }
 
 
-/*forward*/
+
+
+
+/*Refresh*/
 
 
 .forward {
@@ -425,6 +452,9 @@ a {
     transform: rotate(360deg);
   }
 }
+
+
+
 
 
 
