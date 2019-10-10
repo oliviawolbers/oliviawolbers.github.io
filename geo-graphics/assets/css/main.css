@@ -39,8 +39,44 @@ a {
 	flex: 0 0 25%;
 }
 
-/*Email*/
 
+/*Siri*/
+
+.behind-siri {
+	background: rgb(38,244,212);
+    background: radial-gradient(circle, rgba(38,244,212,1) 0%, rgba(1,25,87,1) 100%, rgba(255,255,255,1) 100%);
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.siri {
+	width: 30vw;
+	height: 90vh;
+	background-color: #282828;
+	display: flex;
+	flex-wrap: wrap;
+	flex: 0 0 33.33%;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5%;
+	margin-top: 5vh;
+	border: 10px solid #26f4d4;
+}
+
+.message {
+	font-size: 30px;
+	font-family: helvetica neue, sans-serif;
+	text-align: center;
+	color: #26f4d4;
+}
+
+
+/*Email*/
 
 .email h1 {
   overflow: hidden; 
@@ -49,7 +85,7 @@ a {
   margin: 0 auto; 
   letter-spacing: .30em; 
   animation: 
-    typing 3.5s steps(40, end),
+    typing 3.5s steps(40, end)
     blink-caret .75s step-end infinite;
   margin-top: 50vh;
   font-family: 'Mansalva', cursive;
@@ -72,9 +108,7 @@ a {
 }
 
 
-
-
-/*Elevator*/
+/*Door*/
 
 .behind {
   background: rgb(168,98,2);
@@ -110,9 +144,7 @@ a {
   100% {
     width:100vw;
   }
-
-
-
+}
 
 /*Traffic Lights*/
 
