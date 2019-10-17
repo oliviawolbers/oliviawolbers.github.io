@@ -40,6 +40,45 @@ a {
 }
 
 
+
+/*iPhone Passcode*/
+
+.passcode {
+	background: radial-gradient(violet, indigo);
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.passcode-number {
+	font-size: 10vw;
+	flex: 0 0 11%;
+	color: white;
+	object-fit: contain;
+	animation: forward 1.5s linear infinite;
+    text-align: center;
+    margin-bottom: 70px;
+    border-radius: 5vw;
+    border: 3px solid white;
+    background-color: darkviolet;
+	
+}
+
+
+@keyframes forward {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
 /*Siri*/
 
 .behind-siri {
