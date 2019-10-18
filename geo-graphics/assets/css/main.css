@@ -623,8 +623,40 @@ a {
 
 }
 
+/*myki*/
 
+.myki {
+	display: flex;
+	flex-wrap: wrap;
 
+}
 
+.myki-white {
+	width: 25vw;
+	height:50vh;
+	background-color: darkred;
+	font-size: 50px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+
+}
+
+.myki-black {
+	width: 25vw;
+	height:50vh;
+	font-size: 50px;
+	background-color: green;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    color: lime;
+
+}
+
+.myki-black img {
+	width: 100%;
+}
 
 
