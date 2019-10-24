@@ -1,0 +1,201 @@
+body {
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 24px;
+	background-color: #ffd7fa;
+}
+
+a {
+	color:#282828;
+}
+
+
+.sidebar1 {
+	position: fixed;
+	width:15%;
+	top:0px;
+	left:0px;
+	height:100vh;
+	font-size: 2vw;
+	text-transform: uppercase;
+	background-image: linear-gradient(#00989f, #ffd7fa);
+}
+
+.sidebar-content1 {
+	padding: 10px;
+	color: #282828;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.sidebar2 {
+	position: fixed;
+	width:15%;
+	top:0px;
+	right:0px;
+	height:100vh;
+	font-size: 2vw;
+	text-transform: uppercase;
+	background-image: linear-gradient(#00989f, #ffd7fa);
+}
+
+.sidebar-content2 {
+	padding: 10px;
+	color: #282828;
+	text-align: center;
+}
+
+.filter {
+	padding: 10px;
+	margin-top: 10px;
+	color: white;
+	cursor: default;
+
+}
+
+.subheading {
+	padding: 10px;
+	border-radius: 30%;
+	background-color: #ffd7fa;
+	border: solid 0.5mm #282828;
+	border-radius: 2px;
+	text-decoration: none;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+.main {
+	width:70%;
+	margin-left: 15%;
+	background-color: #ffd7fa;
+}
+
+.heading {
+	font-size: 7.7vw;
+	margin-left: 20px;
+	font-family: 'Anton', sans-serif;
+	color: white;
+	margin-top: 20px;
+	display: flex;
+	-webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #00989f;
+    cursor: default;
+}
+
+
+.intro {
+	padding: 20px; 
+	margin-left: 10px;
+	font-size: 2vw;
+	color: #282828;
+	margin-top: 10px;
+	/*color: #ff6400;*/
+	cursor: default;
+}
+
+
+.listing {
+	display: flex;
+	flex-wrap:wrap;
+	border-top: 2px solid #282828;
+	padding: 10px;
+	margin-bottom: 1vw;
+	font-size: 2.2vw;
+	text-transform: uppercase;
+	margin-left: 20px;
+	margin-right: 20px;
+	color: #282828;
+}
+
+.title {
+	flex:0 0 50%;
+	font-weight: bold;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.type {
+	flex:0 0 25%;
+	cursor: default;
+}
+
+.date {
+	flex:0 0 25%;
+	cursor: default;
+}	
+
+
+/*additional pages*/
+
+.info {
+	margin-top: 165px;
+	font-size: 2vw;
+	padding: 10px;
+	color: #282828;
+}
+
+.when {
+	font-weight: bold;
+}
+
+.where {
+    font-weight: bold;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.exhibition {
+	font-size: 4vw;
+	font-weight: bold;
+	text-align: center;
+	color: #00989f;
+	margin-top: 20px;
+
+}
+
+.exhibition-info {
+	margin-left: 10px;
+	text-align: left;
+	font-weight: normal;
+	font-size:2vw;
+	padding: 20px;
+	color: #282828;
+
+}
+
+.exhibition-info p {
+	padding: 10px;
+
+}
+
+.more {
+	margin-left: 10px;
+	text-align: left;
+	font-weight: normal;
+	font-size:1.5vw;
+	padding: 20px;
+	color: #00989f;
+	text-align: center;
+}
+
+/*interactive classes*/
+
+.hide {
+	display: none;
+
+}
+
+.show {
+	display: block;
+
+}
+
+.active {
+	background-color: #ffd7fa;
+}
+
+
+
+
+
