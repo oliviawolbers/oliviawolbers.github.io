@@ -64,7 +64,7 @@ a {
 	flex: 0 0 50%;
 }
 
-.digpub {
+.dpub {
 	flex: 0 0 50%;
 	font-family: 'Fira Code', monospace; 
 	font-weight:bold;
@@ -87,7 +87,7 @@ a {
 }
 
 
-.digpub::after {
+.dpub::after {
     content: '';
     display: block;
     width: 0;
@@ -96,7 +96,7 @@ a {
     transition: width .3s;
 }
 
-.digpub:hover::after {
+.dpub:hover::after {
     width: 100%;
     //transition: width .3s;
 }
