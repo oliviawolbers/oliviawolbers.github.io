@@ -18,7 +18,7 @@ a {
 .background {
 	width: 100vw;
 	height: 100vh;
-	background-image: linear-gradient(#f453df, #ffd7fa);
+	background-image: linear-gradient(#f453df, #8e4fff);
 
 }
 
@@ -45,73 +45,60 @@ a {
 	font-family: 'Fira Code', monospace; 
 	padding-left: 10vw;
 	padding-right: 10vw;
-}
-
-.check-out {
-	font-size: 1.5vw;
-	margin:50px;
-	color: #7a006a;
-	margin-top: 50px;
-	text-align: center;
-	font-family: 'Fira Code', monospace; 
+	margin-bottom: 15vh;
 }
 
 
-.grid {
-	display: flex;
-	flex-wrap: wrap;
-	padding: 10px;
-	flex: 0 0 50%;
-}
-
-.dpub {
-	flex: 0 0 50%;
+.click {
 	font-family: 'Fira Code', monospace; 
 	font-weight:bold;
 	text-align: center;
-	font-size: 5vw;
+	font-size: 4vw;
 	color: white;
 	text-decoration: none;
 	cursor: pointer;
-}
-
-.design {
-	flex: 0 0 50%;
-	font-family: 'Fira Code', monospace; 
-	font-weight:bold;
-	text-align: center;
-	font-size: 5vw;
-	color: white;
-	text-decoration: none;
-	cursor: pointer;
+	display: table-cell;
+    vertical-align: middle;
+    
 }
 
 
-.dpub::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 5px;
-    background: white;
-    transition: width .3s;
+.click-on {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  color: white;
+  margin-left: 20vw;
+  margin-top: 5vh;
 }
 
-.dpub:hover::after {
-    width: 100%;
-    //transition: width .3s;
+.click-on:before, span:after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  top: 50%;
+  margin-top: -0.5px;
+  background: #fff;
 }
 
-.design::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 5px;
-    background: white;
-    transition: width .3s;
+.click-on:before {
+  left: -2.5px;
+}
+.click-on:after {
+  right: 2.5px;
+  background: #fff;
+  transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
-.design:hover::after {
-    width: 100%;
-    //transition: width .3s;
-    align-content: center;
+.click-on:hover:before {
+  background: #fff;
+  width: 100%;
+  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.click-on:hover:after {
+  background: transparent;
+  width: 100%;
+  transition: 0s;
 }
