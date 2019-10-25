@@ -2,7 +2,8 @@ body {
 	font-family: Helvetica,Arial,sans-serif;
 	font-size: 50px;
 	color: pink; 
-	background-image: linear-gradient(blue, lime);
+	
+	background-color: #f453df;
 }
 
 a {
@@ -14,39 +15,102 @@ a {
 /* EXAMPLE CODE PLEASE REMOVE */
 
 
-.title {
-	font-family: arial black, sans-serif; 
-	color: lime;
-	text-align: center;
-	font-size: 9.5vw;
-	margin-top: 30px;
-	text-shadow: 7px 7px 5px violet;
+.background {
+	width: 100vw;
+	height: 100vh;
+	background-image: linear-gradient(#f453df, #ffd7fa);
 
 }
+
+.title {
+	font-family: 'Fira Code', monospace; 
+	color: #222222;
+	text-align: center;
+	font-size: 4vw;
+	margin-top: 25vh;
+	/*text-shadow: 1px 1px 5px black;*/
+	font-weight: bold;
+	text-decoration: none;
+}
+
+* { color:#222222; text-decoration: none; font-family: 'Fira Code', monospace;}
 
 .bio{
-	font-size: 20px;
+	font-size: 1.5vw;
 	margin:50px;
-	color: black;
+	color: #7a006a;
 	margin-top: 50px;
 	text-align: center;
-	font-family: verdana, sans-serif;
+	font-family: 'Fira Code', monospace; 
+	padding-left: 10vw;
+	padding-right: 10vw;
 }
 
-.image img {width:100%;}
-
-
-.image{
-	margin: center;
-	margin-top: 10px; 
-	border: 10px solid pink;
-   
- 
+.check-out {
+	font-size: 1.5vw;
+	margin:50px;
+	color: #7a006a;
+	margin-top: 50px;
+	text-align: center;
+	font-family: 'Fira Code', monospace; 
 }
 
 
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+	flex: 0 0 50%;
 }
-	
 
- }
+.dpub {
+	flex: 0 0 50%;
+	font-family: 'Fira Code', monospace; 
+	font-weight:bold;
+	text-align: center;
+	font-size: 10vw;
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.design {
+	flex: 0 0 50%;
+	font-family: 'Fira Code', monospace; 
+	font-weight:bold;
+	text-align: center;
+	font-size: 10vw;
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+.dpub::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 5px;
+    background: white;
+    transition: width .3s;
+}
+
+.dpub:hover::after {
+    width: 100%;
+    //transition: width .3s;
+}
+
+.design::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 5px;
+    background: white;
+    transition: width .3s;
+}
+
+.design:hover::after {
+    width: 100%;
+    //transition: width .3s;
+    align-content: center;
 }
