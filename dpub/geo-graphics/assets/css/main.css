@@ -64,6 +64,36 @@ a {
 	color: #212121;
 }
 
+
+
+
+/*error*/
+
+.error {
+	background-color: white;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+
+}
+
+.error-text {
+	font-size: 15vw;
+	text-align: center;
+	color: blue;
+	-webkit-animation: color-change 0.5s infinite;
+
+}
+
+ @-webkit-keyframes color-change {
+        0% { color: white; }
+        50% { color: red; }
+        100% { color: white; }
+
+
 /*iPhone Passcode*/
 
 .passcode {
