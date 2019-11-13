@@ -15,7 +15,7 @@ a {
 .index-background {
 	width: 100%;
 	height:100%;
-    background-color: #212121;
+    background-color: #ffe9a1;
 
 	
 }
@@ -29,6 +29,7 @@ a {
 	font-family: 'Bowlby One SC', cursive;
 	color: lightpink;
     cursor: default;
+    -webkit-text-stroke: 1px #212121;
 
 }
 
@@ -38,7 +39,7 @@ a {
 	padding: 10px;
 	margin-bottom: 5px;
 	margin-top: 5px;
-	border-top: 4px solid white;
+	border-top: 4px solid #212121;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 3vw;
 }
@@ -47,7 +48,7 @@ a {
 	flex: 0 0 40%;
 	align-content: center;
 	margin-left: 10%;
-	color: white;
+	color: #212121;
 	font-weight: bold;
 
 }
@@ -55,13 +56,14 @@ a {
 .index-layer {
 	flex: 0 0 50%;
 	align-content: center;
-	color: lightpink;
+	color: pink;
 	cursor: default;
+	font-weight: bold;
 	text-align: center;
 }
 
 .bottom {
-	color: #212121;
+	color: #ffe9a1;
 }
 
 
