@@ -65,7 +65,63 @@ a {
 }
 
 
+/*warning*/
 
+.warning {
+    background-color: maroon;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.warning-text {
+	font-size: 15vw;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	margin-left: 40px;
+	animation-name:changesize;
+    animation-duration:1000ms;
+	animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+.do-not-enter {
+	font-size: 15vw;
+	text-align: center;
+	color: white;
+	animation-name:changesizes;
+    animation-duration:1000ms;
+	animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes changesize {
+  
+  from {
+    font-size:5vw;
+  }
+  
+  to {
+    font-size:15vw;
+  }
+ }
+  
+  @keyframes changesizes {
+  
+  from {
+    font-size:15vw;
+  }
+  
+  to {
+    font-size:5vw;
+  }
+  
+}
 
 /*error*/
 
@@ -86,7 +142,7 @@ a {
 
 }
 
-@-webkit-keyframes color-change {
+ @-webkit-keyframes color-change {
         0% { color: white; }
         50% { color: red; }
         100% { color: white; }
