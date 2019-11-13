@@ -75,7 +75,7 @@ a {
 	cursor: pointer;
 }
 
-.design {
+.portfolio {
 	flex: 0 0 50%;
 	font-family: 'Fira Code', monospace; 
 	font-weight:bold;
@@ -101,7 +101,7 @@ a {
     //transition: width .3s;
 }
 
-.design::after {
+.portfolio::after {
     content: '';
     display: block;
     width: 0;
@@ -110,7 +110,7 @@ a {
     transition: width .3s;
 }
 
-.design:hover::after {
+.portfolio:hover::after {
     width: 100%;
     //transition: width .3s;
     align-content: center;
