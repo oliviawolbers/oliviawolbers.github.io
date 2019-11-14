@@ -63,6 +63,22 @@ a {
 	margin-top: 10px;
 }
 
+.subheadingopen {
+	padding: 10px;
+	border-radius: 30%;
+	background-color: #ffd7fa;
+	border: solid 0.5mm white;
+	border-radius: 2px;
+	text-decoration: none;
+	cursor: pointer;
+	margin-top: 80vh;
+	font-size: 1.63vw;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	color: white;
+}
+
 .main {
 	width:70%;
 	margin-left: 15%;
