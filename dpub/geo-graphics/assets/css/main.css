@@ -908,4 +908,63 @@ a {
 }
 
 
+/*GOOGLE*/
+
+.google {
+	background-color: white;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.google-text {
+	font-size: 15vw;
+	text-align: center;
+	font-family: 'futura', sans-serif;
+	color: #4285F4;
+
+}
+
+.google-text2 {
+	font-size: 15vw;
+	text-align: center;
+	font-family: 'futura', sans-serif;
+	color: #DB4437;
+
+}
+
+.google-text3 {
+	font-size: 15vw;
+	text-align: center;
+	font-family: 'futura', sans-serif;
+	color: #F4B400;
+
+}
+
+.google-text4 {
+	font-size: 15vw;
+	text-align: center;
+	font-family: 'futura', sans-serif;
+	color: #4285F4;
+
+}
+
+.google-text5 {
+	font-size: 15vw;
+	text-align: center;
+	font-family: 'futura', sans-serif;
+	color: #0F9D58;
+
+}
+
+.google-text6 {
+	font-size: 15vw;
+	text-align: center;
+	font-family: 'futura', sans-serif;
+	color: #DB4437;
+
+}
 
